@@ -1,9 +1,9 @@
-# This MyButtonLibrary.MyButton example:
+# This NET6 WinForms MyButtonLibrary.MyButton example:
 - Uses Microsoft's Nuget package microsoft.winforms.designer.sdk (1.1.0-prerelease-preview3.22076.5).
 - Uses DesignTools "server only" approach
 
 # Reading application settings fails in NET6 WinForms designer
-To reproduce using the MyButtonLibrary nuget package:
+To reproduce using the MyButtonLibrary nuget package from the \pack\packages folder:
 1) In VS2022 make a new NET6 WinForms project
 2) Copy \Pack\packages\MyButtonLibrary.1.0.100.nupkg to a local Nuget feed and in your NET6 WinForms project add a Nuget reference to it
 3) From VS2022 tools window drag and drop MyButton control onto Form1
