@@ -23,43 +23,15 @@ namespace MyButtonLibrary.Design
             DesignerActionItemCollection items = new DesignerActionItemCollection();
             items.Add(new DesignerActionMethodItem(
                 this,
-                "EditMyButtonCaption",
-                "Edit MyButton caption (NET6 dialog)...",
-                "",
-                "",
-                true));
-            items.Add(new DesignerActionMethodItem(
-                this,
                 "ApplicationSettingsBug",
-                "Reading application settings fails in NET6 WinForms designer...",
+                "Change button text using application setting - This FAILS",
                 "",
                 "",
                 true));
             items.Add(new DesignerActionMethodItem(
                 this,
-                "SetBackgroundRed",
-                "Red Background",
-                "BackgroundColor",
-                "",
-                true));
-            items.Add(new DesignerActionMethodItem(
-                this,
-                "SetBackgroundWhite",
-                "White Background",
-                "BackgroundColor",
-                "",
-                true));
-            items.Add(new DesignerActionMethodItem(
-                this,
-                "SetBackgroundBlue",
-                "Blue Background",
-                "BackgroundColor",
-                "",
-                true));
-            items.Add(new DesignerActionMethodItem(
-                this,
-                "EditButtonText",
-                "Edit Button Text",
+                "HardCodedStringTest",
+                "Change button text using hard coded text - SUCCESS",
                 "",
                 "",
                 true));
@@ -72,43 +44,14 @@ namespace MyButtonLibrary.Design
             get { return (MyButtonLibrary.MyButton)Component!; }
         }
 
-        public void EditMyButtonCaption()
+        public void HardCodedStringTest()
         {
-            using (MyButtonEditorDialog dlg = new MyButtonEditorDialog())
-            {
-                dlg.ButtonCaption = MyButton.Text;
-                var dialogResult = dlg.ShowDialog(MyButton);
-                if (dialogResult == DialogResult.OK)
-                    MyButton.Text = dlg.ButtonCaption;
-            }
+            MyButton.HardCodedStringTest();
         }
 
         public void ApplicationSettingsBug()
         {
-            using (MyButtonEditorDialog dlg = new MyButtonEditorDialog())
-            {
-                dlg.ButtonCaption = MyButton.Text;
-                dlg.ApplicationSettingsTest();
-                var dialogResult = dlg.ShowDialog(MyButton);
-                if (dialogResult == DialogResult.OK)
-                    MyButton.Text = dlg.ButtonCaption;
-            }
-        }
-
-        public void SetBackgroundRed()
-        {
-            MyButton.BackColor = System.Drawing.Color.Red;
-        }
-
-        public void SetBackgroundWhite()
-        {
-            MyButton.BackColor = System.Drawing.Color.White;
-        }
-
-        public void SetBackgroundBlue()
-        {
-
-            MyButton.BackColor = System.Drawing.Color.Blue;
+            MyButton.ApplicationSettingsTest();
         }
     }
 }

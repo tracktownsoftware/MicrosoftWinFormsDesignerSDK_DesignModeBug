@@ -12,5 +12,14 @@ namespace MyButtonLibrary
             base.OnClick(e);
             this.Text = Settings.Default.HelloWorld;
         }
+
+        public void ApplicationSettingsTest()
+        {
+            this.Text = Settings.Default.HelloWorld;
+        }
+        public void HardCodedStringTest()
+        {
+            this.Text = "Hard coded Hello World";
+        }
     }
 }

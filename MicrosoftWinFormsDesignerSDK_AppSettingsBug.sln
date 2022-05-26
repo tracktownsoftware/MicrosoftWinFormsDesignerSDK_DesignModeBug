@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pack", "Pack", "{5F5155C8-2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{0125F1BD-C07B-4F84-A6C3-9CF74F0E54C8}"
 	ProjectSection(SolutionItems) = preProject
-		Pack\Packages\MyButtonLibrary.1.0.100.nupkg = Pack\Packages\MyButtonLibrary.1.0.100.nupkg
+		Pack\Packages\MyButtonLibrary.1.0.102.nupkg = Pack\Packages\MyButtonLibrary.1.0.102.nupkg
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerOnlyApproach", "ServerOnlyApproach", "{066E9E3B-F0EF-4E46-A144-E1480B7ACDF5}"
