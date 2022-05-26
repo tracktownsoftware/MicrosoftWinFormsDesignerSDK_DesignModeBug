@@ -15,19 +15,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pack", "Pack", "{5F5155C8-2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{0125F1BD-C07B-4F84-A6C3-9CF74F0E54C8}"
 	ProjectSection(SolutionItems) = preProject
-		Pack\Packages\MyButton2Library.1.0.90.nupkg = Pack\Packages\MyButton2Library.1.0.90.nupkg
-		Pack\Packages\MyButtonLibrary.1.0.90.nupkg = Pack\Packages\MyButtonLibrary.1.0.90.nupkg
+		Pack\Packages\MyButtonLibrary.1.0.100.nupkg = Pack\Packages\MyButtonLibrary.1.0.100.nupkg
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyButton2Library", "MyButton2Library\MyButton2Library.csproj", "{3DC66325-1AD1-4DF4-B7F7-F25DB62E2ED0}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerAndClientApproach", "ServerAndClientApproach", "{8C514247-B441-470E-9221-0B5E976925A8}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerOnlyApproach", "ServerOnlyApproach", "{066E9E3B-F0EF-4E46-A144-E1480B7ACDF5}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyButton2Library.Design.Client", "MyButton2Library.Design.Client\MyButton2Library.Design.Client.csproj", "{8DFECD6D-271D-4839-AF99-95A76FD91784}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyButton2Library.Design.Server", "MyButton2Library.Design.Server\MyButton2Library.Design.Server.csproj", "{CC451923-8EE5-4E42-B984-881FECDDD3A6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,18 +34,6 @@ Global
 		{D06F091D-DF6F-4F40-9964-C1383C2EEEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D06F091D-DF6F-4F40-9964-C1383C2EEEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D06F091D-DF6F-4F40-9964-C1383C2EEEA4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3DC66325-1AD1-4DF4-B7F7-F25DB62E2ED0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3DC66325-1AD1-4DF4-B7F7-F25DB62E2ED0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3DC66325-1AD1-4DF4-B7F7-F25DB62E2ED0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3DC66325-1AD1-4DF4-B7F7-F25DB62E2ED0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8DFECD6D-271D-4839-AF99-95A76FD91784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8DFECD6D-271D-4839-AF99-95A76FD91784}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8DFECD6D-271D-4839-AF99-95A76FD91784}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8DFECD6D-271D-4839-AF99-95A76FD91784}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC451923-8EE5-4E42-B984-881FECDDD3A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC451923-8EE5-4E42-B984-881FECDDD3A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC451923-8EE5-4E42-B984-881FECDDD3A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC451923-8EE5-4E42-B984-881FECDDD3A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,9 +42,6 @@ Global
 		{5E8760CF-D9D9-4518-B091-2B75F6017E84} = {066E9E3B-F0EF-4E46-A144-E1480B7ACDF5}
 		{D06F091D-DF6F-4F40-9964-C1383C2EEEA4} = {066E9E3B-F0EF-4E46-A144-E1480B7ACDF5}
 		{0125F1BD-C07B-4F84-A6C3-9CF74F0E54C8} = {5F5155C8-28D0-4841-BA7D-23941C051388}
-		{3DC66325-1AD1-4DF4-B7F7-F25DB62E2ED0} = {8C514247-B441-470E-9221-0B5E976925A8}
-		{8DFECD6D-271D-4839-AF99-95A76FD91784} = {8C514247-B441-470E-9221-0B5E976925A8}
-		{CC451923-8EE5-4E42-B984-881FECDDD3A6} = {8C514247-B441-470E-9221-0B5E976925A8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {47FE951C-9321-48D9-9D04-2828EEF3E401}

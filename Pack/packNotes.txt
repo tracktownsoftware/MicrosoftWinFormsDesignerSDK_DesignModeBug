@@ -1,10 +1,9 @@
-To build both MyButtonLibrary and MyButton2Library nuget packages:
+To build MyButtonLibrary nuget package:
 1) Open  VS2022 developer command prompt window
-2) Make \Pack the current directory
+2) Make MicrosoftWinFormsDesignerSDK_AppSettingsBug\Pack the current directory
 3) In pack.bat you can modify package version in line "set PACKAGEVERSION=" 
 4) At command prompt run: pack.bat
 5) nupkg file will output to \Pack\Packages
 
 Notes:
 MyButtonLibrary package - see MyButtonLibrary.csproj for package info
-MyButton2Library package - see MyButton2Library.csproj for package info
