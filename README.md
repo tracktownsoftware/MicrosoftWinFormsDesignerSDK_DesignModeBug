@@ -5,7 +5,7 @@
 # Reading application settings fails in NET6 WinForms designer
 Steps to reproduce this bug using the MyButtonLibrary nuget package from this repo's \pack\packages folder:
 1) In VS2022 make a new NET6 WinForms project
-2) Copy \Pack\packages\MyButtonLibrary.1.0.100.nupkg to a local Nuget feed and in your NET6 WinForms project add a Nuget reference to it
+2) Copy \Pack\packages\MyButtonLibrary.1.0.102.nupkg to a local Nuget feed and in your NET6 WinForms project add a Nuget reference to it
 3) From the VS2022 tools window drag and drop MyButton control onto Form1
 4) Run the app and click the MyButton control. The button text changes. This shows that application settings can be accessed at runtime.
 5) Stop the app to return to design mode
