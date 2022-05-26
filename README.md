@@ -10,7 +10,7 @@ Steps to reproduce this bug using the MyButtonLibrary nuget package from this re
 4) **Run-time test (SUCCESS):** Run the app and click the MyButton control. The button text changes. This shows that application settings can be accessed at runtime.
 5) Stop the app to return to design mode
 6) **Design-time hard coded test (SUCCESS)**: In the Form1 window right-click the MyButton control to access the design-time context menu. Select "Change button text using hard coded text - SUCCESS"
-7) **Design-time applicaton settings test (FAIL)**: In the Form1 window right-click the MyButton control to access the design-time context menu. Select "Change button text using application setting - This FAILS"
+7) **Design-time application settings test (FAIL)**: In the Form1 window right-click the MyButton control to access the design-time context menu. Select "Change button text using application setting - This FAILS"
 8) For step 7 you may see the exception "Invalid URI: this hostname could not be parsed". 
 
 
