@@ -1,6 +1,6 @@
-# The goal is figure out how to add VS2022 design-time support for custom NET6 WinForms controls using Microsoft's Nuget package microsoft.winforms.designer.sdk (1.1.0-prerelease-preview3.22076.5). Microsoft documentation is limited.
-
-This MyButtonLibrary.MyButton example uses a DesignTools server only approach.
+# This MyButtonLibrary.MyButton example:
+- Uses Microsoft's Nuget package microsoft.winforms.designer.sdk (1.1.0-prerelease-preview3.22076.5).
+- Uses DesignTools "server only" approach
 
 # Reading application settings fails in NET6 WinForms designer
 To reproduce using the MyButtonLibrary nuget package:
