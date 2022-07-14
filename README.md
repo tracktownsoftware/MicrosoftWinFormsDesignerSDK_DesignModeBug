@@ -1,9 +1,9 @@
-# This repo contains a NET6 WinForms MyButtonLibrary.MyButton example:
+# This repo contains a NET6 WinForms MyButtonLibrary2.MyButton example:
 - Uses Microsoft's Nuget package microsoft.winforms.designer.sdk (1.1.0-prerelease-preview3.22076.5).
 - Uses DesignTools "server only" approach  
 
-# Reading application settings fails in NET6 WinForms designer. Throws exception "Invalid URI: this hostname could not be parsed".
-Steps to reproduce this bug using the MyButtonLibrary nuget package from this repo's \pack\packages folder:
+# A scenario where DesignMode is incorrectly false from the NET6 WinForms designer for a custom control.
+Steps to reproduce this bug:
 1) In VS2022 make a new NET6 WinForms project
 2) Copy \Pack\packages\MyButtonLibrary.1.0.102.nupkg to a local Nuget feed and in your NET6 WinForms project add a Nuget reference to it
 3) From the VS2022 tools window drag and drop MyButton control onto Form1
