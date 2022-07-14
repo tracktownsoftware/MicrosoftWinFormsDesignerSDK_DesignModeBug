@@ -22,7 +22,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MyButtonLibrary\MyButtonLibrary.csproj" />
+    <ProjectReference Include="..\MyButtonLibrary2\MyButtonLibrary2.csproj" />
   </ItemGroup>
 
 </Project>

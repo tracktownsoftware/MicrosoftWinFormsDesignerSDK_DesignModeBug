@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyButtonLibrary", "MyButtonLibrary\MyButtonLibrary.csproj", "{5E8760CF-D9D9-4518-B091-2B75F6017E84}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyButtonLibrary.Design", "MyButtonLibrary.Design\MyButtonLibrary.Design.csproj", "{D06F091D-DF6F-4F40-9964-C1383C2EEEA4}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pack", "Pack", "{5F5155C8-28D0-4841-BA7D-23941C051388}"
 	ProjectSection(SolutionItems) = preProject
 		Pack\pack.bat = Pack\pack.bat
@@ -15,10 +11,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Pack", "Pack", "{5F5155C8-2
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Packages", "Packages", "{0125F1BD-C07B-4F84-A6C3-9CF74F0E54C8}"
 	ProjectSection(SolutionItems) = preProject
-		Pack\Packages\MyButtonLibrary.1.0.102.nupkg = Pack\Packages\MyButtonLibrary.1.0.102.nupkg
+		Pack\Packages\MyButtonLibrary2.1.0.122.nupkg = Pack\Packages\MyButtonLibrary2.1.0.122.nupkg
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServerOnlyApproach", "ServerOnlyApproach", "{066E9E3B-F0EF-4E46-A144-E1480B7ACDF5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyButtonLibrary2", "MyButtonLibrary2\MyButtonLibrary2.csproj", "{2819816C-B753-45A2-9A6B-D26C500E6785}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyButtonLibrary2.Design", "MyButtonLibrary2.Design\MyButtonLibrary2.Design.csproj", "{27654D90-3EC9-4AA6-85C0-8A02982EE97D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,22 +26,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5E8760CF-D9D9-4518-B091-2B75F6017E84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E8760CF-D9D9-4518-B091-2B75F6017E84}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E8760CF-D9D9-4518-B091-2B75F6017E84}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E8760CF-D9D9-4518-B091-2B75F6017E84}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D06F091D-DF6F-4F40-9964-C1383C2EEEA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D06F091D-DF6F-4F40-9964-C1383C2EEEA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D06F091D-DF6F-4F40-9964-C1383C2EEEA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D06F091D-DF6F-4F40-9964-C1383C2EEEA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2819816C-B753-45A2-9A6B-D26C500E6785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2819816C-B753-45A2-9A6B-D26C500E6785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2819816C-B753-45A2-9A6B-D26C500E6785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2819816C-B753-45A2-9A6B-D26C500E6785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27654D90-3EC9-4AA6-85C0-8A02982EE97D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27654D90-3EC9-4AA6-85C0-8A02982EE97D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27654D90-3EC9-4AA6-85C0-8A02982EE97D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27654D90-3EC9-4AA6-85C0-8A02982EE97D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{5E8760CF-D9D9-4518-B091-2B75F6017E84} = {066E9E3B-F0EF-4E46-A144-E1480B7ACDF5}
-		{D06F091D-DF6F-4F40-9964-C1383C2EEEA4} = {066E9E3B-F0EF-4E46-A144-E1480B7ACDF5}
 		{0125F1BD-C07B-4F84-A6C3-9CF74F0E54C8} = {5F5155C8-28D0-4841-BA7D-23941C051388}
+		{2819816C-B753-45A2-9A6B-D26C500E6785} = {066E9E3B-F0EF-4E46-A144-E1480B7ACDF5}
+		{27654D90-3EC9-4AA6-85C0-8A02982EE97D} = {066E9E3B-F0EF-4E46-A144-E1480B7ACDF5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {47FE951C-9321-48D9-9D04-2828EEF3E401}

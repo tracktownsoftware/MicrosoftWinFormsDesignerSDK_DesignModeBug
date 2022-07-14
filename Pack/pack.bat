@@ -1,5 +1,5 @@
-set PACKAGEVERSION=1.0.102
-msbuild ..\MicrosoftWinFormsDesignerSDK_Test1.sln -p:Configuration=Release 
+set PACKAGEVERSION=1.0.122
+msbuild ..\MicrosoftWinFormsDesignerSDK_DesignModeBug.sln -p:Configuration=Release 
 
-rem build MyButtonLibrary package
-dotnet pack -p:PackageVersion=%PACKAGEVERSION% ..\MyButtonLibrary\MyButtonLibrary.csproj --configuration=Release --output Packages
+rem build MyButtonLibrary2 package
+dotnet pack -p:PackageVersion=%PACKAGEVERSION% ..\MyButtonLibrary2\MyButtonLibrary2.csproj --configuration=Release --output Packages

@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyButtonLibrary.Design
+namespace MyButtonLibrary2.Design
 {
     internal class MyButtonActionList : DesignerActionList
     {
@@ -23,15 +23,8 @@ namespace MyButtonLibrary.Design
             DesignerActionItemCollection items = new DesignerActionItemCollection();
             items.Add(new DesignerActionMethodItem(
                 this,
-                "ApplicationSettingsBug",
-                "Change button text using application setting - This FAILS",
-                "",
-                "",
-                true));
-            items.Add(new DesignerActionMethodItem(
-                this,
-                "HardCodedStringTest",
-                "Change button text using hard coded text - SUCCESS",
+                "DesignModeValueBug",
+                "Dialog scenario showing DesignMode incorrectly false at design-time...",
                 "",
                 "",
                 true));
@@ -41,17 +34,15 @@ namespace MyButtonLibrary.Design
 
         public MyButton MyButton
         {
-            get { return (MyButtonLibrary.MyButton)Component!; }
+            get { return (MyButtonLibrary2.MyButton)Component!; }
         }
 
-        public void HardCodedStringTest()
+        public void DesignModeValueBug()
         {
-            MyButton.HardCodedStringTest();
-        }
-
-        public void ApplicationSettingsBug()
-        {
-            MyButton.ApplicationSettingsTest();
+            using (MyButtonDialog dlg = new MyButtonDialog())
+            {
+                var dialogResult = dlg.ShowDialog(MyButton);
+            }
         }
     }
 }

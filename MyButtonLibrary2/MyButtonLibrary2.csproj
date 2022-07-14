@@ -11,7 +11,7 @@
   </PropertyGroup>
 
 	<ItemGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-		<Content Include="..\MyButtonLibrary.Design\bin\Release\net6.0-windows\MyButtonLibrary.Design.dll">
+		<Content Include="..\MyButtonLibrary2.Design\bin\Release\net6.0-windows\MyButtonLibrary2.Design.dll">
 			<Pack>true</Pack>
 			<!--<PackagePath>\lib\net6.0-windows7.0\Design\WinForms\17.0\Server</PackagePath>-->
 			<PackagePath>\lib\net6.0-windows7.0\Design\WinForms\Server</PackagePath>

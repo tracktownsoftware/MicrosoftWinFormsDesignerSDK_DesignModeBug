@@ -8,11 +8,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MyButtonLibrary.Design
+namespace MyButtonLibrary2.Design
 {
     internal class MyButtonDesigner : ControlDesigner
     {
-        private MyButtonLibrary.MyButton? _myButton;
+        private MyButtonLibrary2.MyButton? _myButton;
         private DesignerActionListCollection? _actionLists;
         private IComponentChangeService? _componentChangeService;
         private DesignerActionUIService? _designerActionUIService;
@@ -30,7 +30,7 @@ namespace MyButtonLibrary.Design
         public override void Initialize(IComponent component)
         {
             base.Initialize(component);
-            _myButton = component as MyButtonLibrary.MyButton;
+            _myButton = component as MyButtonLibrary2.MyButton;
             if (_myButton != null)
             {
                 _myButton.Width = 200;
