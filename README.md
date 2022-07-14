@@ -12,5 +12,6 @@ Steps to reproduce this bug:
 6) FAIL: Note that the design-time dialog displays text "DesignMode:False" and "Process:DesignToolsServer". DesignMode should be false.
 
 This image displays the result of the above steps:
+![Image](MicrosoftWinFormsDesignerSDK_DesignModeBug/DesignModeBugScreenshot.JPG)
 
 
