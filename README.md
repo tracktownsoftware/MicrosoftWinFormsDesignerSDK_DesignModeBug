@@ -9,6 +9,8 @@ Steps to reproduce this bug:
 3) From the VS2022 tools window drag and drop MyButton control onto Form1
 4) SUCCESS: Note that MyButton contains text "DesignMode:False" and "Process:DesignToolsServer"
 5) On the Form1 designer, right-click MyButton and select context menu "Dialog scenario showing DesignMode incorrectly false at design-time..."
-6) FAIL: Note that the design-time dialog displayed contains text "DesignMode:False" and "Process:DesignToolsServer". DesignMode shouls be false.
+6) FAIL: Note that the design-time dialog displays text "DesignMode:False" and "Process:DesignToolsServer". DesignMode should be false.
+
+This image displays the result of the above steps:
 
 
