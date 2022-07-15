@@ -1,4 +1,4 @@
-# This repo contains a NET6 WinForms MyButtonLibrary2.MyButton example:
+# This repo contains a NET6 WinForms custom control MyButtonLibrary2.MyButton:
 - Uses Microsoft's Nuget package microsoft.winforms.designer.sdk (1.1.0-prerelease-preview3.22076.5).
 - Uses DesignTools "server only" approach  
 
